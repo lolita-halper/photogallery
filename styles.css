@@ -181,6 +181,24 @@ figure:nth-child(12) figcaption {
     color: var(--white);
     top: -260px;
 }
+figure:nth-child(4) figcaption {
+    top: -600px;
+}
+figure:nth-child(5) figcaption {
+    top: -600px;
+}
+figure:nth-child(8) figcaption {
+    top: -260px;
+}
+figure:nth-child(9) figcaption {
+    top: -260px;
+}
+figure:nth-child(10) figcaption {
+    top: -260px;
+}
+figure:nth-child(11) figcaption {
+    top: -260px;
+}
 
 /* ---------- FOOTER ---------- */
 
