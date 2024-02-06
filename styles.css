@@ -150,7 +150,7 @@ main {
     position: relative;
     display: grid;
     justify-content: center;
-    gap: 20px;
+    gap: 5px;
 }
 figure {
     margin: 0 auto;
@@ -164,9 +164,9 @@ figcaption {
     text-align: center;
     text-transform: uppercase;
   }
-figcaption:nth-of-type(2n) {
+  figcaption::first-line {
     color: var(--white);
-    top: -100px;
+    top: -260px;
 }
   footer {
     background-color: var(--black);
