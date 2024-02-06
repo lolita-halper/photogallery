@@ -29,68 +29,85 @@
         <section id="gallery">
             <h2>Gallery</h2>
             <p>Here are some highlights of my work. The locations and year are in the caption.</p>
-            <section id="galleryImg">
-                <section class="photos">
-                    <img src="images/Chile.png" alt="Ocean landscape with waves coming up in the soft sand in the sunrise">
-                    <figcaption>Chile, 2001</figcaption>
-                </section>
-                <section class="photos">
-                    <img src="images/Guatemala.png" alt="">
-                    <figcaption>Guatemala, 1997</figcaption>
-                </section>
-                <section class="photos">
-                    <img src="images/Hawaii.png" alt="">
-                    <figcaption>Hawaii, 2010</figcaption>
-                </section>
-                <section class="photos">
-                    <img src="images/Iran.png" alt="">
-                    <figcaption>Iran, 1999</figcaption>
-                </section>
-                <section class="photos">
-                    <img src="images/Ireland.png" alt="">
-                    <figcaption>Ireland, 2012</figcaption>
-                </section>
-                <section class="photos">
-                    <img src="images/Italy.png" alt="">
-                    <figcaption>Italy, 2015</figcaption>
-                </section>
-                <section class="photos">
-                    <img src="images/Moab-Desert.png" alt="">
-                    <figcaption>Moab Desert, 2020</figcaption>
-                </section>
-                <section class="photos">
-                    <img src="images/Rocky-Mountains.png" alt="">
-                    <figcaption>Rocky Mountains, 2009</figcaption>
-                </section>
-                <section class="photos">
-                    <img src="images/Switzerland.png" alt="">
-                    <figcaption>Switzerland, 2014</figcaption>
-                </section>
-                <section class="photos">
-                    <img src="images/UK.png" alt="">
-                    <figcaption>UK, 2005</figcaption>
-                </section>
-                <section class="photos">
-                    <img src="images/USA.png" alt="">
-                    <figcaption>USA, 2021</figcaption>
-                </section>
-                <section class="photos">
-                    <img src="images/Wyoming.png" alt="">
-                    <figcaption>Wyoming, 2021</figcaption>
-                </section>
+        </section>
+        <section id="galleryImg">
+            <section class="photos">
+                <figure>
+                <img src="images/Chile.png" alt="Ocean landscape with waves coming up in the soft sand in the sunrise">
+                <figcaption>Chile, 2001</figcaption>
+            </figure>
+            </section>
+            <section class="photos">
+                <img src="images/Guatemala.png" alt="">
+                <figcaption>Guatemala, 1997</figcaption>
+            </section>
+            <section class="photos">
+                <img src="images/Hawaii.png" alt="">
+                <figcaption>Hawaii, 2010</figcaption>
+            </section>
+            <section class="photos">
+                <img src="images/Iran.png" alt="">
+                <figcaption>Iran, 1999</figcaption>
+            </section>
+            <section class="photos">
+                <img src="images/Ireland.png" alt="">
+                <figcaption>Ireland, 2012</figcaption>
+            </section>
+            <section class="photos">
+                <img src="images/Italy.png" alt="">
+                <figcaption>Italy, 2015</figcaption>
+            </section>
+            <section class="photos">
+                <img src="images/Moab-Desert.png" alt="">
+                <figcaption>Moab Desert, 2020</figcaption>
+            </section>
+            <section class="photos">
+                <img src="images/Rocky-Mountains.png" alt="">
+                <figcaption>Rocky Mountains, 2009</figcaption>
+            </section>
+            <section class="photos">
+                <img src="images/Switzerland.png" alt="">
+                <figcaption>Switzerland, 2014</figcaption>
+            </section>
+            <section class="photos">
+                <img src="images/UK.png" alt="">
+                <figcaption>UK, 2005</figcaption>
+            </section>
+            <section class="photos">
+                <img src="images/USA.png" alt="">
+                <figcaption>USA, 2021</figcaption>
+            </section>
+            <section class="photos">
+                <img src="images/Wyoming.png" alt="">
+                <figcaption>Wyoming, 2021</figcaption>
             </section>
         </section>
     </main>
-    <aside>
-        Contact
-        Please fill out this form and I'll connect with you soon.
+    <form >
+        <h2>Contact</h2>
+        <p>Please fill out this form and I'll connect with you soon.</p>
         
-        Your contact information
-        Name (Your full name)
-        Email (Enter your email address)
+       Your contact information
+
+        Name 
+        (Your full name)
+        <label for="your-name">Name</label>
+		<input type="text" name="your-name">
+
+        Email 
+        (Enter your email address)
+        <label for="your-email">Address</label>
+		<input type="text" name="your-email">
+
         Message (What can I help you with?)
+
+        <label for="your-message">Comments</label>
+		<textarea name="your-message">
+
         Submit
-    </aside>
+		<input type="submit" name="your-submit" id="your-submit" value="Submit Form">
+    </form>
+    </section>
     <footer>
         <small>Copyright 2021 TK Photography </small>
     </footer>
