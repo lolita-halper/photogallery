@@ -164,10 +164,26 @@ figcaption {
     text-align: center;
     text-transform: uppercase;
   }
-  figcaption::first-line {
+figure:nth-child(2) figcaption {
     color: var(--white);
     top: -260px;
 }
+figure:nth-child(1) figcaption {
+    color: var(--white);
+}
+figure:nth-child(3) figcaption {
+    color: var(--white);
+}
+figure:nth-child(7) figcaption {
+    color: var(--white);
+}
+figure:nth-child(12) figcaption {
+    color: var(--white);
+    top: -260px;
+}
+
+/* ---------- FOOTER ---------- */
+
   footer {
     background-color: var(--black);
     color: var(--white);
