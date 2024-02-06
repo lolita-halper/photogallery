@@ -172,7 +172,7 @@ figure:nth-child(1) figcaption,figure:nth-child(3) figcaption,figure:nth-child(7
     color: var(--white);
 } 
 figure:nth-child(4) figcaption, figure:nth-child(5) figcaption {
-    top: -600px;
+    top: -615px;
 }
 figure:nth-child(8) figcaption, figure:nth-child(9) figcaption, figure:nth-child(10) figcaption,
 figure:nth-child(11) figcaption {
