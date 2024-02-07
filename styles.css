@@ -103,6 +103,7 @@ nav a {
 nav a:hover {
 color: var(--med-green);
 }
+
 [href="#top"] {
     position: fixed;
     bottom: 0;
@@ -135,22 +136,27 @@ p {
     line-height: 1.5em;
 }
 
-/* ---------- MAIN, GALLERY ---------- */
+/* ---------- MAIN ---------- */
 
 main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: auto;
     padding: 0 10px;
 }
+
+/* ---------- GALLERY ---------- */
+
 #gallery {
     padding: 30px 0 10px 0;
 }
 #galleryImg {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    padding: 0 10px;
     position: relative;
     display: grid;
     justify-content: center;
-    gap: 5px;
 }
 figure {
     margin: 0 auto;
@@ -235,3 +241,58 @@ input  {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+
+ /* ---------- MEDIA QUERY 880PX ---------- */
+
+ @media screen and (min-width: 880px) {
+
+body {
+    min-width: 880px;;
+}
+#galleryImg {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    column-gap:17px;
+    padding: 0 10px;
+    position: relative;
+}
+main {
+    justify-content: center;
+}
+p {
+    margin-left: 10px;
+}
+label {
+	margin: 0 0 4px 55px;
+}
+header {
+    text-align: left;
+    padding-left: 10px;
+}
+
+}
+  
+@media screen and (min-width: 1300px) {
+
+    body {
+        min-width: 1300px;;
+    }
+    #galleryImg {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    p {
+        margin-left: 10px;
+    }
+    label {
+        margin: 0 0 4px 75px;
+    }
+    nav {
+        text-align: right;
+    }
+
+
+}
+ 
