@@ -248,7 +248,7 @@ input  {
  @media screen and (min-width: 880px) {
 
 body {
-    min-width: 880px;;
+    min-width: 880px;
 }
 #galleryImg {
     margin: 0 auto;
@@ -278,7 +278,7 @@ header {
 @media screen and (min-width: 1300px) {
 
     body {
-        min-width: 1300px;;
+        min-width: 1300px;
     }
     #galleryImg {
         grid-template-columns: 1fr 1fr 1fr;
