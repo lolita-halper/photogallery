@@ -1,7 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
-*/
+*/                                                
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -184,23 +184,19 @@ figure:nth-child(8) figcaption, figure:nth-child(9) figcaption, figure:nth-child
 figure:nth-child(11) figcaption {
     top: -260px;
 }
-/* ---------- FOOTER ---------- */
 
-  footer {
-    background-color: var(--black);
-    color: var(--white);
-    text-align: center;
-    font-size: var(--figcaption-label-input-small-font-size);
-    padding: 50px 0 20px 0;
-  }
 
   /* ---------- FORM ---------- */
-form {
+
+  legend {
+    width: 100%;
+  }
+  #contact {
     background-color: var(--black);
     color: var(--white);
 	padding: 16px;
   }
-form p {
+#contact p {
     text-align: center;
   }
 .contact-info {
@@ -209,18 +205,18 @@ form p {
   }
 input, label, select, textarea {
 	display: block;
-	width: 90%;
+	width: 100%;
     margin: 0 auto;
 }
 label {
-	margin: 0 0 4px 35px;
+	margin: 0 0 4px 11px;
     text-transform: uppercase;
 }
 input, select, textarea {
 	padding: 10px;
 	font-size:var(--figcaption-label-input-small-font-size);
 	margin-bottom: 24px;
-	border-radius: 4px;
+	border-radius: 2px;
 	border: 1px inset var(--med-green);
 	background-color: var(--white);
 }
@@ -235,12 +231,24 @@ input  {
 #your-submit {
     background-color: var(--med-green);
     color: var(--white);
-    width: 60%;
-    border-radius: 15px;
+    width: 50%;
+    border-radius: 16px;
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: bold;
 }
+
+/* ---------- FOOTER ---------- */
+
+  footer {
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    font-size: var(--figcaption-label-input-small-font-size);
+    padding: 50px 0 20px 0;
+  }
+
+
 
 
  /* ---------- MEDIA QUERY 880PX ---------- */
@@ -292,7 +300,4 @@ header {
     nav {
         text-align: right;
     }
-
-
 }
- 
