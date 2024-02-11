@@ -189,12 +189,13 @@ figure:nth-child(11) figcaption {
   /* ---------- FORM ---------- */
 
   legend {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
   #contact {
     background-color: var(--black);
     color: var(--white);
-	padding: 16px;
+	padding: 5px 16px 16px 16px;
   }
 #contact p {
     text-align: center;
@@ -273,13 +274,14 @@ main {
 p {
     margin-left: 10px;
 }
-label {
-	margin: 0 0 4px 55px;
-}
+
 header {
     text-align: left;
     padding-left: 10px;
 }
+legend {
+    width: 85%;
+  }
 
 }
   
@@ -294,10 +296,10 @@ header {
     p {
         margin-left: 10px;
     }
-    label {
-        margin: 0 0 4px 75px;
-    }
     nav {
         text-align: right;
+    }
+    legend {
+
     }
 }
