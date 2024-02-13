@@ -90,11 +90,12 @@ nav {
     align-items: center;
     background-color: var(--black);
     padding: 25px;
-
-/*nav h2 {
+}
+nav h2 {
     visibility: hidden;
     height: 1px;
-}*/
+    position: absolute;
+}
 nav a {
     color: var(--white);
     text-transform: uppercase;
