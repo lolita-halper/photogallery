@@ -192,6 +192,10 @@ figure:nth-child(11) figcaption {
     width: 90%;
     margin: 0 auto;
   }
+  legend {
+    visibility: hidden;
+    font-size: 1px;
+  }
   #contact {
     background-color: var(--black);
     color: var(--white);
@@ -199,6 +203,7 @@ figure:nth-child(11) figcaption {
   }
 #contact p {
     text-align: center;
+    padding-bottom: 25px;
   }
 .contact-info {
     visibility: hidden;
@@ -264,6 +269,8 @@ main {
 header {
     text-align: left;
 }
+
+
 }
 
 @media screen and (min-width: 1300px) {
